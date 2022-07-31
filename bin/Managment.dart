@@ -23,7 +23,7 @@ class Managment {
         _subordinates.add(subordinate);
     }
 
-    void remove(Employee subordinate) {
+    void removeSubordinate(Employee subordinate) {
         assert(subordinate != null);
         if(_subordinates == null) {
             return;

@@ -1,6 +1,6 @@
 enum Qualification {
     diploma,
-    Bachelors,
-    Master,
-    Doctoral
+    bachelors,
+    master,
+    doctoral
 }

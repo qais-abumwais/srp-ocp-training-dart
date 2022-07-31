@@ -10,16 +10,16 @@ import 'SalesEmployee.dart';
 
 void main(List<String> arguments) {
     // Manager
-    Manager rasheed = Manager('Rasheed', 'Rabata', 'M', DateTime(1986, 5, 5), Qualification.Bachelors, 5000, 10);
+    Manager rasheed = Manager('Rasheed', 'Rabata', 'M', DateTime(1986, 5, 5), Qualification.bachelors, 5000, 10);
     // Leader
-    LeadDeveloper ibrahim = LeadDeveloper('Ibrahim', 'Swaiss', "M", DateTime(1975, 6, 6), Qualification.Doctoral, 4000);
+    LeadDeveloper ibrahim = LeadDeveloper('Ibrahim', 'Swaiss', "M", DateTime(1975, 6, 6), Qualification.doctoral, 4000);
     // Sales
-    SalesEmployee join = SalesEmployee("Brain", "B", "M", DateTime(1990, 7, 7), Qualification.Master, 3000, 15, 1000);
+    SalesEmployee join = SalesEmployee("Brain", "B", "M", DateTime(1990, 7, 7), Qualification.master, 3000, 15, 1000);
     join.increaseTotalSales(2000);
     // Developer
-    NormalEmployee qais = NormalEmployee("Qais", "Maher", "M", DateTime(1997, 7, 1), Qualification.Bachelors, 3000, Position.developer);
+    NormalEmployee qais = NormalEmployee("Qais", "Maher", "M", DateTime(1997, 7, 1), Qualification.bachelors, 3000, Position.developer);
     // HR
-    NormalEmployee diana = NormalEmployee("Diana", "Shwabkeh", "F", DateTime(1988, 1, 1), Qualification.Bachelors, 3000, Position.hr);
+    NormalEmployee diana = NormalEmployee("Diana", "Shwabkeh", "F", DateTime(1988, 1, 1), Qualification.bachelors, 3000, Position.hr);
 
 
 

@@ -23,7 +23,7 @@ class Printer {
         } else if(employee is Manager) {
             Manager manager = employee;
 
-            print("Position: Manger, Bouns: ${manager.calculateBouns(companyRevenue: 50000)}\nSubordinates: ");
+            print("Position: Manger, Bouns: ${manager.calculateBouns(companyRevenue: 50000)}\nSubordinates: "); // Suppose the company revenue is 50000
             printSubordinates(manager);
         } else if(employee is LeadDeveloper) {
             LeadDeveloper leadDeveloper = employee;

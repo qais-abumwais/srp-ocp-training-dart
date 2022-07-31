@@ -27,7 +27,7 @@ class Employee {
         _lastName = lastName;
         _gender = gender;
         _birthday = birthday;
-        qualification = qualification;
+        _qualification = qualification;
         _startingDate = DateTime.now();
         _salary = salary;
     }

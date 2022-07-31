@@ -40,7 +40,7 @@ class SalesEmployee extends Employee implements Calculation {
         return _target;
     }
 
-    void increaseTotal(double value) {
+    void increaseTotalSales(double value) {
         _totalSales ??= 0; 
         _totalSales += value;
     }

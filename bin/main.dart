@@ -15,7 +15,7 @@ void main(List<String> arguments) {
     LeadDeveloper ibrahim = LeadDeveloper('Ibrahim', 'Swaiss', "M", DateTime(1975, 6, 6), Qualification.Doctoral, 4000);
     // Sales
     SalesEmployee join = SalesEmployee("Brain", "B", "M", DateTime(1990, 7, 7), Qualification.Master, 3000, 15, 1000);
-    join.increaseTotal(2000);
+    join.increaseTotalSales(2000);
     // Developer
     NormalEmployee qais = NormalEmployee("Qais", "Maher", "M", DateTime(1997, 7, 1), Qualification.Bachelors, 3000, Position.developer);
     // HR
